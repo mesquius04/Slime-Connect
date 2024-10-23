@@ -1,0 +1,152 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+.fondo {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 100vh;
+    background-color: #383737;
+}
+h1{
+    font-size: 36px;
+    background-color: rgb(88, 87, 87);
+    margin: 0;
+    padding: 12px;
+    text-size-adjust: 32px;
+    color: antiquewhite;
+    text-align: center;
+}
+h3{
+    margin-left: 32px;  
+    padding: 0;
+    font-size: 42px;
+    color: white;
+}
+#monret{
+    margin-left: 12px;  
+    padding: 0;
+    font-size: 24px;
+    color: white;
+}
+#canva {
+    place-self: center;
+    border: 4px solid #000000; /* Borde del lienzo opcional */
+}
+#sota{
+    display: flex;
+}   
+#btn {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    border:3px solid crimson;
+    background-color: #fff0c9;
+    align-items: center;
+    font-size: 2em;
+    margin-right: 32px;
+    margin-top: -32px;
+    box-shadow: 0 0 7px black inset;
+    user-select: none;
+    -moz-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+#improve {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    border:3px solid crimson;
+    background-color: #fff0c9;
+    align-items: center;
+    font-size: 2em;
+    margin-right: 22px;
+    margin-top: -52px;
+    box-shadow: 0 0 7px black inset;
+    user-select: none;
+    -moz-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+#plusless {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    border:3px solid green;
+    background-color: #c9ffcd;
+    align-items: center;
+    font-size: 2em;
+    margin-right: 150px;
+    box-shadow: 0 0 5px black inset;
+    user-select: none;
+    -moz-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+#pluslesss {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    border:3px solid green;
+    background-color: #c9ffcd;
+    align-items: center;
+    font-size: 2em;
+    margin-right: 308px;
+    box-shadow: 0 0 5px black inset;
+    user-select: none;
+    -moz-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+#bet{
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    border:3px solid green;
+    background-color: #c9ffcd;
+    align-items: center;
+    font-size: 2em;
+    margin-top: -18px;
+    margin-right: 212px;
+    box-shadow: 0 0 5px black inset;
+    user-select: none;
+    -moz-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+#turbo {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    border:3px solid rgb(0, 0, 0);
+    background-color: #888988;
+    align-items: center;
+    font-size: 2em;
+    margin-right: 420px;
+    box-shadow: 0 0 5px black inset;
+    user-select: none;
+    -moz-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
