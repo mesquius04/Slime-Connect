@@ -9,15 +9,16 @@ body, html {
     padding: 0;
     display: grid;
     height: 100vh;
-    background-color: #383737;
+    background-color: #3c5e77;
 }
 h1{
-    font-size: 36px;
-    background-color: rgb(88, 87, 87);
+    font-size: 32px;
+    background-color: #2e485b;
     margin: 0;
-    padding: 12px;
-    text-size-adjust: 32px;
-    color: antiquewhite;
+    padding: 6px;
+    margin-top: 0px;
+    margin-bottom: 14px;
+    color: #c3d2dd;
     text-align: center;
 }
 h3{
@@ -45,16 +46,18 @@ h3{
 #sota{
     display: flex;
 }   
+
 #btn {
-    width: 84px;
-    height: 84px;
+    width: 86px;
+    height: 86px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    border:3px solid crimson;
-    background-color: #fff0c9;
+    border:3px solid rgb(40, 57, 82);
+    background-color: #d7e9f8;
     align-items: center;
     font-size: 2em;
+    text-align: center;
     margin-right: 32px;
     margin-top: -32px;
     box-shadow: 0 0 7px black inset;
@@ -70,13 +73,13 @@ h3{
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    border:3px solid crimson;
-    background-color: #fff0c9;
+    border:2px solid rgb(40, 57, 82);
+    background-color: #a1bcd0;
     align-items: center;
-    font-size: 2em;
+    font-size: 20px;
     margin-right: 22px;
     margin-top: -52px;
-    box-shadow: 0 0 7px black inset;
+    box-shadow: 0 0 10px rgb(40, 57, 82) inset;
     user-select: none;
     -moz-user-select: none;
     cursor: pointer;
@@ -97,6 +100,7 @@ h3{
     box-shadow: 0 0 5px black inset;
     user-select: none;
     -moz-user-select: none;
+    margin-top: 26px;
     cursor: pointer;
     position: absolute;
     right: 0;
@@ -110,6 +114,7 @@ h3{
     border:3px solid green;
     background-color: #c9ffcd;
     align-items: center;
+    margin-top: 28px;
     font-size: 2em;
     margin-right: 308px;
     box-shadow: 0 0 5px black inset;
@@ -126,10 +131,10 @@ h3{
     display: flex;
     justify-content: center;
     border:3px solid green;
-    background-color: #c9ffcd;
+    background-color: #daf9dc;
     align-items: center;
     font-size: 2em;
-    margin-top: -18px;
+    margin-top: 8px;
     margin-right: 212px;
     box-shadow: 0 0 5px black inset;
     user-select: none;
@@ -147,11 +152,12 @@ h3{
     border:3px solid rgb(0, 0, 0);
     background-color: #888988;
     align-items: center;
-    font-size: 2em;
+    font-size: 16px;
     margin-right: 420px;
     box-shadow: 0 0 5px black inset;
     user-select: none;
     -moz-user-select: none;
+    margin-top: 22px;
     cursor: pointer;
     position: absolute;
     right: 0;

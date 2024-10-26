@@ -26,6 +26,11 @@ export function drawImageWithDelay(context, image,i, j, in_bonus, speed) {
         
     }
 }
+export async function paintbg(context) {
+    loadImage(`./assets/images/background.webp`, function (image) {
+        context.drawImage(image,  0,  0, cellWidth * 5, cellHeight * 5);
+        });
+}
 export async function paint(context,matrix,speed,specialType) {
     for (let i = 0; i < matrix.length; i++) {
         for (let j = 0; j < matrix[i].length; j++) {
