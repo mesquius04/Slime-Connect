@@ -15,6 +15,10 @@ Occasionally, a **Special Spin** occurs, during which slimes grow and offer bett
 
 Additionally, there is the **Bonus Feature**, which is rare but can be triggered by landing three *King Slimes* in a single spin. This bonus awards a set of **Free Spins**, accompanied by *Mini-Slimes* that provide additional benefits. During the bonus round, *Darkness Slimes* can expand within their column, **including their multiplier**.
 
+## Getting Started
+
+To start using **Slime-Connect**, simply clone this repository, find `index.html` file with **Live Server** in your preferred code editor (e.g., VSCode). No additional setup is required.
+
 ## Technical Key Points
 
 1. **Function Logic Review**
@@ -43,3 +47,5 @@ Additionally, there is the **Bonus Feature**, which is rare but can be triggered
      - Introducing *Mini-Slimes* that provide additional boosts during the bonus round.
      - Enhancing the behavior of *Darkness Slimes*, allowing them to expand vertically with their multiplier applied.
    - The implementation uses a state machine to handle transitions between normal gameplay and bonus mode, ensuring a smooth user experience.
+
+## Gallery
