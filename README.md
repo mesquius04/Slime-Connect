@@ -1,4 +1,45 @@
 # Welcome to Slime-Connect 🎉
-This repository contains a project I made on my own, during my 2nd year of Computer Science Bachelor. It was the second project I build in JS (the first full vanilla).
-Although it may not follow all best practices, it represents an important step in my journey as a developer, and I'm very proud of it.
-![image](https://github.com/user-attachments/assets/dd89ecd7-8241-4710-97d6-3b01918fde63)
+
+This repository contains **Slime-Connect**, a project I created during my second year of Computer Science studies. It was my second project in JavaScript and the first one built entirely with vanilla JS. While it might not follow all best practices, it represents a key milestone in my journey as a developer, and I am very proud of it.
+
+![slime](https://github.com/user-attachments/assets/e048dd1e-7fe6-4477-a078-5e85e7904302)
+
+## Introduction
+In **Slime-Connect**, you can choose the **bet amount**, which is the 'money' you are willing to spend per spin. The rewards adjust accordingly, but the Return to Player (RTP) remains the same. You can also enable **Auto Spin** mode for 10, 20, 50, or 100 automatic spins. Additionally, you can select the spin speed: **Normal**, **Fast**, or **Fast++**.
+
+Occasionally, a **Special Spin** occurs, during which slimes grow and offer better rewards:
+
+- **Darkness Slimes** can combine with other slimes and provide multipliers such as **x2**, **x5**, **x10**, or **x25**.
+- **Heaven Slimes** can also combine with other slimes. A large Heaven Slime can expand vertically within its column.
+- Other slimes do not have special abilities, but they follow a ranking: **Green > Yellow > Blue = Red > Brown**.
+
+Additionally, there is the **Bonus Feature**, which is rare but can be triggered by landing three *King Slimes* in a single spin. This bonus awards a set of **Free Spins**, accompanied by *Mini-Slimes* that provide additional benefits. During the bonus round, *Darkness Slimes* can expand within their column, **including their multiplier**.
+
+## Technical Key Points
+
+1. **Function Logic Review**
+   - The project follows a modular approach, with well-defined functions for each responsibility. For example, in `/src/js/gameLogic.js`, the *check* function handles:
+     - Validation of the combinations of slimes.
+     - Applying game rules and modifiers (e.g., multipliers from special slimes).
+     - Calculating and returning rewards based on the player's bet.
+   - This separation of concerns makes the code easier to maintain and debug.
+
+2. **Rendering Module**
+   - The game uses the **Canvas API** for drawing and animating the slimes, providing a smooth visual experience without relying on external libraries. The rendering module:
+     - Handles sprite drawing and animations for each slime type.
+     - Optimizes rendering by redrawing only when necessary, minimizing performance overhead.
+     - Includes a custom animation loop to control the spin speed (Normal, Fast, Fast++).
+     - Visually highlights slime combinations detected by the *check* function, as seen in the *linear_paint* function in `/src/js/visuals.js`.
+
+3. **Statistical Optimization**
+   - The game logic includes statistical elements to ensure balanced gameplay. Key optimizations include:
+     - Adjusting the probability of different slime types appearing to match the desired RTP (Return to Player).
+     - Special logic for handling **Special Spins** and **Bonus Features** to maintain excitement without making the game too predictable.
+     - Avoiding external scripting, ensuring a purely probabilistic game experience that enhances randomness and fairness.
+
+4. **Bonus Feature Implementation**
+   - The **Bonus Feature** is a key part of the game, triggered by landing three *King Slimes*. The bonus mode includes:
+     - Awarding a number of **Free Spins** depending on the number of *King Slimes* found.
+     - Introducing *Mini-Slimes* that provide additional boosts during the bonus round.
+     - Enhancing the behavior of *Darkness Slimes*, allowing them to expand vertically with their multiplier applied.
+   - The implementation uses a state machine to handle transitions between normal gameplay and bonus mode, ensuring a smooth user experience.
