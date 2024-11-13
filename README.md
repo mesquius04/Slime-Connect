@@ -17,7 +17,7 @@ Additionally, there is the **Bonus Feature**, which is rare but can be triggered
 
 ## Getting Started
 
-To start using **Slime-Connect**, simply clone this repository, find `index.html` file with **Live Server** in your preferred code editor (e.g., VSCode). No additional setup is required.
+To start using **Slime-Connect**, simply clone this repository, find `index.html` file and run it with **Live Server** in your preferred code editor (e.g., VSCode). No additional setup is required.
 
 ## Technical Key Points
 
