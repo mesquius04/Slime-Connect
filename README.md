@@ -55,6 +55,4 @@ To start using **Slime-Connect**, simply clone this repository, find `index.html
 
 ![image](https://github.com/user-attachments/assets/7246a7ca-69d0-4a72-9859-d795b90f16b2)
 
-![image](https://github.com/user-attachments/assets/ba320ab1-40a1-44bd-9827-6f96d5f166fa)
-
-
+![image](https://github.com/user-attachments/assets/63cf0494-0dcc-4f2e-8f2c-08b6d3c0318e)
