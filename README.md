@@ -49,3 +49,12 @@ To start using **Slime-Connect**, simply clone this repository, find `index.html
    - The implementation uses a state machine to handle transitions between normal gameplay and bonus mode, ensuring a smooth user experience.
 
 ## Gallery
+![image](https://github.com/user-attachments/assets/7ec498e1-29ca-4f89-81c5-16557ca69266)
+
+![image](https://github.com/user-attachments/assets/254224a0-f3a7-4adb-b085-3b1fcf83e647)
+
+![image](https://github.com/user-attachments/assets/7246a7ca-69d0-4a72-9859-d795b90f16b2)
+
+![image](https://github.com/user-attachments/assets/ba320ab1-40a1-44bd-9827-6f96d5f166fa)
+
+
